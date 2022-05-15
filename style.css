@@ -4,10 +4,10 @@
     
 }
 #banner{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(7, 255, 255, 0.753)), url(software.jpg);
+    
     background-size: cover;
     background-position: center;
-    height: 100vh;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(7, 255, 255, 0.753)), url(software.jpg);    height: 100vh;
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
 }
@@ -139,6 +139,7 @@ nav ul li a{
     position: relative;
     z-index: 1;
     display: inline-block;
+    
 }
 .title p::after{
     content: '';
@@ -152,6 +153,7 @@ nav ul li a{
     transform: rotate(10deg);
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
+    
 }
 .title h1{
     font-size: 50px;
