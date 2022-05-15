@@ -49,13 +49,15 @@
     border:0.5px solid aqua ;
     transition: color 0.5s;
     top: 50%;
-    left: 8%;
+    margin: auto;
+    left: 30%;
     transform: translateY(-50%);
+    padding: 10px;
 }
 #btn1{
     position: absolute;
-    top: 55%;
-    left: 8%;
+    top: 60%;
+    left: 30%;
 }
 .banner-btn a span{
     width: 0;
@@ -86,7 +88,7 @@
 nav ul li{
    list-style: none;
    margin-top: 60px;
-   margin-right: 20px;
+   /* margin-right: 20px; */
    text-align: center;
 }
 nav ul li a{
@@ -300,5 +302,66 @@ hr{
     .sis:hover .sde{
         bottom: 25% !important;
         
+    }
+}
+@media screen and (max-width: 770px){
+    .banner-btn a{
+        top: 55%;
+
+    }
+    #btn1{
+        top: 65%;
+
+    }
+
+}
+#fethe{
+    background-color: white;
+    padding: 100px 0 20px;
+    position: relative;
+    
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left, .footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+
+}
+.footer-row p{
+    line-height: 35px;
+    color: rgb(7, 164, 255);
+    
+}
+.footer-img{
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 770px){
+   
+    .footer-left, .footer-right{
+      flex-basis: 100%;  
+      font-size: 14px;
+    }
+    .footer-img{
+        top: 25%;
+
     }
 }
