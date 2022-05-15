@@ -4,12 +4,11 @@
     
 }
 #banner{
-    
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(7, 255, 255, 0.753)), url(software.jpg);    
     background-size: cover;
     background-position: center;
-background:linear-gradient(rgba(0,0,0,0.5),rgba(7, 255, 255, 0.753)), url(software.jpg);    height: 100vh;
-    background-attachment: fixed;
-    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    
 }
 #logo{
     color: white;
